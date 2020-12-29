@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+.layer {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+header h1 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 55px;
+  color: #ffffff;
+}
+header p {
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+header span::before {
+  content: "";
+  animation: textreplace 8s infinite;
+}
+header i {
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+@keyframes textreplace {
+  0% {
+    content: "Larry Daniels";
+  }
+  50% {
+    content: "Designer";
+  }
+  100% {
+    content: "Developer";
+  }
+}
+section h3 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 33px;
+  color: #343434;
+}
+section .text {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #748182;
+}
+section .subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+}
+section span {
+  font-weight: 700;
+}
+section p {
+  font-weight: 400;
+}
+section .item {
+  background-color: #f7f7f7;
+}
+section .sub-item {
+  background-color: black;
+}
+
+section .progress-bgcolor {
+  height: 25px;
+  background-color: #f5f5f5;
+}
+section .progress-color {
+  background-color: #000000;
+}
+
+section .text-item {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 14px;
+}
+.buttons .btn1 {
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid #1c1c1c;
+}
+.buttons .btn2 {
+  color: #343434;
+  border: 1px solid #1c1c1c;
+}
+.btn1:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.btn2:hover {
+  background-color: black;
+  color: #ffffff;
+}
+.caption {
+  background-color: gray;
+}
+section .icon {
+  background-color: #f4f4f4;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+section .serve-text {
+  font-weight: 800;
+  font-size: 18;
+  line-height: 20px;
+  color: #343434;
+}
+section .serve-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14;
+  line-height: 22px;
+  color: #748182;
+}
+section .serve-color {
+  background-color: #ffffff;
+}
+section h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+article .bg-color {
+  background: blue;
+}
+article img {
+  width: 90px;
+}
+article h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #343434;
+}
+article .text-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #343434;
+}
+section .number {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 33px;
+  color: #343434;
+}
+section .info {
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #748182;
+}
+section h5 {
+  font-size: 12px;
+  font-weight: 600px;
+  line-height: 13px;
+  color: #888888;
+}
+.card-info {
+  font-size: 20px;
+  font-weight: 800px;
+  line-height: 32px;
+  color: #343434;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #343434;
+}
+footer h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #343434;
+}
+footer .icon {
+  background-color: #f4f4f4;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #f4f4f4;
+  border-radius: 50%;
+}
+footer .footer-text {
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 18px;
+  color: #343434;
+}
+footer .form-color {
+  background-color: #f4f4f4;
+}
+footer .btn-secondary {
+  background-color: black;
+}
+.bg {
+  background-color: #1c1c1c;
+}
+.text {
+  color: #588175;
+}
